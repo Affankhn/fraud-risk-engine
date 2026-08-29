@@ -1,0 +1,32 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Python virtual environment
+.venv/
+
+# Python-generated cache files
+__pycache__/
+*.py[cod]
+
+# Testing and code-quality caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment variables and secrets
+.env
+
+# Generated datasets
+data/raw/
+data/processed/
+
+# Generated model artifacts
+artifacts/*.joblib
+artifacts/*.pkl
+artifacts/*.json
+
+# Local databases
+*.db
+
+# macOS metadata
+.DS_Store
