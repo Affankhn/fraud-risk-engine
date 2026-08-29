@@ -13,6 +13,9 @@ __pycache__/
 .coverage
 htmlcov/
 
+# Package build metadata
+*.egg-info/
+
 # Environment variables and secrets
 .env
 
